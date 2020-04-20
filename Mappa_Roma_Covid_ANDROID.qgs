@@ -1,7 +1,7 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="3.12.1-București" saveUserFull="1406568" projectname="Mappa_Roma_Covid_qfield.qgs (offline)" saveUser="1406568">
+<qgis saveUser="1406568" projectname="" version="3.12.1-București" saveUserFull="1406568">
   <homePath path=""/>
-  <title>Mappa_Roma_Covid_qfield.qgs (offline)</title>
+  <title></title>
   <autotransaction active="0"/>
   <evaluateDefaultValues active="0"/>
   <trust active="0"/>
@@ -20,25 +20,23 @@
   </projectCrs>
   <layer-tree-group>
     <customproperties/>
-    <layer-tree-layer id="zoneurbane_7bd48b6e_6d51_4d88_a623_d11a2f8711ed" providerKey="ogr" source="/vsicurl/https://raw.githubusercontent.com/totarello91/Mappa_Roma_Covid/master/processing/zoneurbane.csv" name="zoneurbane" checked="Qt::Checked" expanded="1">
+    <layer-tree-layer id="zoneurbane_7bd48b6e_6d51_4d88_a623_d11a2f8711ed" source="./zoneurbane.csv" expanded="1" providerKey="ogr" name="zoneurbane" checked="Qt::Checked">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer id="ZU_shapefile_ZU_COD__offline__0f198062_4e91_4a8a_a41b_b094eeacf067" providerKey="ogr" source="./data.gpkg|layername=ZU_shapefile_ZU_COD_ee267578_7a87_4371_9919_2a611c03b264" name="ZU_shapefile ZU_COD (offline)" checked="Qt::Checked" expanded="1">
-      <customproperties>
-        <property key="showFeatureCount"/>
-      </customproperties>
+    <layer-tree-layer id="ZU_shapefile_ZU_COD_ee267578_7a87_4371_9919_2a611c03b264" source="./ZU_shapefile|layername=ZU_COD" expanded="1" providerKey="ogr" name="ZU_shapefile ZU_COD" checked="Qt::Checked">
+      <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer id="Google_Satellite_2386c6fe_7c80_4bb7_9653_c9d57fd49752" providerKey="wms" source="crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Ds%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D&amp;zmax=18&amp;zmin=0" name="Google Satellite" checked="Qt::Checked" expanded="1">
+    <layer-tree-layer id="Google_Satellite_2386c6fe_7c80_4bb7_9653_c9d57fd49752" source="crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Ds%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D&amp;zmax=18&amp;zmin=0" expanded="1" providerKey="wms" name="Google Satellite" checked="Qt::Checked">
       <customproperties/>
     </layer-tree-layer>
     <custom-order enabled="0">
       <item>Google_Satellite_2386c6fe_7c80_4bb7_9653_c9d57fd49752</item>
-      <item>ZU_shapefile_ZU_COD__offline__0f198062_4e91_4a8a_a41b_b094eeacf067</item>
+      <item>ZU_shapefile_ZU_COD_ee267578_7a87_4371_9919_2a611c03b264</item>
     </custom-order>
   </layer-tree-group>
-  <snapping-settings tolerance="12" intersection-snapping="0" unit="1" enabled="0" type="1" mode="2">
+  <snapping-settings tolerance="12" enabled="0" type="1" intersection-snapping="0" mode="2" unit="1">
     <individual-layer-settings>
-      <layer-setting tolerance="12" id="ZU_shapefile_ZU_COD__offline__0f198062_4e91_4a8a_a41b_b094eeacf067" units="1" enabled="0" type="1"/>
+      <layer-setting id="ZU_shapefile_ZU_COD_ee267578_7a87_4371_9919_2a611c03b264" tolerance="12" units="1" enabled="0" type="1"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
@@ -69,17 +67,17 @@
   </mapcanvas>
   <projectModels/>
   <legend updateDrawingOrder="true">
-    <legendlayer showFeatureCount="0" open="true" drawingOrder="-1" name="zoneurbane" checked="Qt::Checked">
+    <legendlayer drawingOrder="-1" open="true" name="zoneurbane" showFeatureCount="0" checked="Qt::Checked">
       <filegroup open="true" hidden="false">
         <legendlayerfile isInOverview="0" layerid="zoneurbane_7bd48b6e_6d51_4d88_a623_d11a2f8711ed" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer showFeatureCount="0" open="true" drawingOrder="-1" name="ZU_shapefile ZU_COD (offline)" checked="Qt::Checked">
+    <legendlayer drawingOrder="-1" open="true" name="ZU_shapefile ZU_COD" showFeatureCount="0" checked="Qt::Checked">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="ZU_shapefile_ZU_COD__offline__0f198062_4e91_4a8a_a41b_b094eeacf067" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="ZU_shapefile_ZU_COD_ee267578_7a87_4371_9919_2a611c03b264" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer showFeatureCount="0" open="true" drawingOrder="-1" name="Google Satellite" checked="Qt::Checked">
+    <legendlayer drawingOrder="-1" open="true" name="Google Satellite" showFeatureCount="0" checked="Qt::Checked">
       <filegroup open="true" hidden="false">
         <legendlayerfile isInOverview="0" layerid="Google_Satellite_2386c6fe_7c80_4bb7_9653_c9d57fd49752" visible="1"/>
       </filegroup>
@@ -88,7 +86,7 @@
   <mapViewDocks/>
   <mapViewDocks3D/>
   <projectlayers>
-    <maplayer minScale="1e+08" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" maxScale="0" refreshOnNotifyEnabled="0" autoRefreshTime="0" autoRefreshEnabled="0" type="raster" hasScaleBasedVisibilityFlag="0">
+    <maplayer autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" minScale="1e+08" styleCategories="AllStyleCategories" type="raster" autoRefreshTime="0" maxScale="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="">
       <extent>
         <xmin>-20037508.34278924390673637</xmin>
         <ymin>-20037508.34278925508260727</ymin>
@@ -134,7 +132,7 @@
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -155,7 +153,7 @@
         <property value="Undefined" key="identify/format"/>
       </customproperties>
       <pipe>
-        <rasterrenderer opacity="1" alphaBand="-1" nodataColor="" band="1" type="singlebandcolordata">
+        <rasterrenderer band="1" alphaBand="-1" nodataColor="" opacity="1" type="singlebandcolordata">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -166,25 +164,25 @@
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
         </rasterrenderer>
-        <brightnesscontrast contrast="0" brightness="0"/>
-        <huesaturation grayscaleMode="0" colorizeOn="0" colorizeGreen="128" saturation="0" colorizeRed="255" colorizeBlue="128" colorizeStrength="100"/>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation grayscaleMode="0" colorizeRed="255" colorizeGreen="128" saturation="0" colorizeBlue="128" colorizeOn="0" colorizeStrength="100"/>
         <rasterresampler maxOversampling="2"/>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" geometry="Polygon" labelsEnabled="1" type="vector" simplifyDrawingTol="1" simplifyLocal="1" autoRefreshEnabled="0" minScale="100000000" refreshOnNotifyMessage="" maxScale="0" readOnly="0" simplifyDrawingHints="1" simplifyAlgorithm="0" simplifyMaxScale="1" autoRefreshTime="0" wkbType="MultiPolygonZ">
+    <maplayer refreshOnNotifyEnabled="0" minScale="100000000" refreshOnNotifyMessage="" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" labelsEnabled="1" hasScaleBasedVisibilityFlag="0" autoRefreshTime="0" readOnly="0" simplifyLocal="1" simplifyAlgorithm="0" maxScale="0" styleCategories="AllStyleCategories" simplifyDrawingHints="1" wkbType="MultiPolygonZ" type="vector" autoRefreshEnabled="0">
       <extent>
-        <xmin>269997.3125</xmin>
-        <ymin>4614747.5</ymin>
-        <xmax>322065.0625</xmax>
-        <ymax>4668941.5</ymax>
+        <xmin>269997.31517512869322672</xmin>
+        <ymin>4614747.85525435023009777</ymin>
+        <xmax>322065.01022355904569849</xmax>
+        <ymax>4668941.29636733047664165</ymax>
       </extent>
-      <id>ZU_shapefile_ZU_COD__offline__0f198062_4e91_4a8a_a41b_b094eeacf067</id>
-      <datasource>./data.gpkg|layername=ZU_shapefile_ZU_COD_ee267578_7a87_4371_9919_2a611c03b264</datasource>
+      <id>ZU_shapefile_ZU_COD_ee267578_7a87_4371_9919_2a611c03b264</id>
+      <datasource>./ZU_shapefile|layername=ZU_COD</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>ZU_shapefile ZU_COD (offline)</layername>
+      <layername>ZU_shapefile ZU_COD</layername>
       <srs>
         <spatialrefsys>
           <wkt>PROJCRS["WGS 84 / UTM zone 33N",BASEGEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["UTM zone 33N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",15,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["World - N hemisphere - 12°E to 18°E - by country"],BBOX[0,12,84,18]],ID["EPSG",32633]]</wkt>
@@ -203,8 +201,17 @@
         <parentidentifier></parentidentifier>
         <language></language>
         <type>dataset</type>
-        <title>ZU_shapefile_ZU_COD_ee267578_7a87_4371_9919_2a611c03b264 (offline)</title>
+        <title></title>
         <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
         <links/>
         <fees></fees>
         <encoding></encoding>
@@ -221,11 +228,19 @@
             <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
-        <extent/>
+        <extent>
+          <spatial maxz="0" minx="0" minz="0" maxy="0" maxx="0" dimensions="2" crs="" miny="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
       </resourceMetadata>
-      <provider encoding="UTF-8">ogr</provider>
+      <provider encoding="System">ogr</provider>
       <vectorjoins>
-        <join joinFieldName="COD" targetFieldName="CODZU" upsertOnEdit="0" dynamicForm="0" cascadedDelete="0" customPrefix="zoneurbane_" joinLayerId="zoneurbane_7bd48b6e_6d51_4d88_a623_d11a2f8711ed" editable="0" hasCustomPrefix="1" memoryCache="1"/>
+        <join dynamicForm="0" joinLayerId="zoneurbane_7bd48b6e_6d51_4d88_a623_d11a2f8711ed" joinFieldName="COD" memoryCache="1" cascadedDelete="0" targetFieldName="CODZU" editable="0" upsertOnEdit="0"/>
       </vectorjoins>
       <layerDependencies/>
       <dataDependencies/>
@@ -240,17 +255,17 @@
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <renderer-v2 symbollevels="0" enableorderby="0" type="RuleRenderer" forceraster="0">
+      <renderer-v2 enableorderby="0" symbollevels="0" type="RuleRenderer" forceraster="0">
         <rules key="{06aca0c3-b66e-4140-be70-19c65039594e}">
-          <rule filter="&quot;zoneurbane_casi&quot; >= 0.000000 AND &quot;zoneurbane_casi&quot; &lt;= 1.000000" symbol="0" label="1 - 2" key="{e7275680-0928-4f29-96d7-affb2965304a}"/>
-          <rule filter="&quot;zoneurbane_casi&quot; > 1.000000 AND &quot;zoneurbane_casi&quot; &lt;= 7.000000" symbol="1" label="1 - 7" key="{9685d818-88b7-4ddf-a773-d5e64ee54fe6}"/>
-          <rule filter="&quot;zoneurbane_casi&quot; > 7.000000 AND &quot;zoneurbane_casi&quot; &lt;= 11.400000" symbol="2" label="7 - 11,4" key="{360d67f2-5b57-4699-ac34-f7f15d2474c7}"/>
-          <rule filter="&quot;zoneurbane_casi&quot; > 11.400000 AND &quot;zoneurbane_casi&quot; &lt;= 23.000000" symbol="3" label="11,4 - 23" key="{2b015a2e-acd5-4990-8656-2d6fa1c8f317}"/>
-          <rule filter="&quot;zoneurbane_casi&quot; > 23.000000 AND &quot;zoneurbane_casi&quot; &lt;= maximum(&quot;zoneurbane_casi&quot;)" symbol="4" label="23 - max" key="{6ba338c3-86a6-4089-b4d0-ca2b9ed3f992}"/>
+          <rule symbol="0" label="1 - 2" filter="&quot;zoneurbane_casi&quot; >= 0.000000 AND &quot;zoneurbane_casi&quot; &lt;= 1.000000" key="{e7275680-0928-4f29-96d7-affb2965304a}"/>
+          <rule symbol="1" label="1 - 7" filter="&quot;zoneurbane_casi&quot; > 1.000000 AND &quot;zoneurbane_casi&quot; &lt;= 7.000000" key="{9685d818-88b7-4ddf-a773-d5e64ee54fe6}"/>
+          <rule symbol="2" label="7 - 11,4" filter="&quot;zoneurbane_casi&quot; > 7.000000 AND &quot;zoneurbane_casi&quot; &lt;= 11.400000" key="{360d67f2-5b57-4699-ac34-f7f15d2474c7}"/>
+          <rule symbol="3" label="11,4 - 23" filter="&quot;zoneurbane_casi&quot; > 11.400000 AND &quot;zoneurbane_casi&quot; &lt;= 23.000000" key="{2b015a2e-acd5-4990-8656-2d6fa1c8f317}"/>
+          <rule symbol="4" label="23 - max" filter="&quot;zoneurbane_casi&quot; > 23.000000 AND &quot;zoneurbane_casi&quot; &lt;= maximum(&quot;zoneurbane_casi&quot;)" key="{6ba338c3-86a6-4089-b4d0-ca2b9ed3f992}"/>
         </rules>
         <symbols>
-          <symbol clip_to_extent="1" force_rhr="0" name="0" alpha="1" type="fill">
-            <layer class="SimpleFill" locked="0" pass="0" enabled="1">
+          <symbol force_rhr="0" alpha="1" type="fill" name="0" clip_to_extent="1">
+            <layer pass="0" class="SimpleFill" locked="0" enabled="1">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="255,255,212,255" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -264,15 +279,15 @@
               <prop v="solid" k="style"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option value="" name="name" type="QString"/>
+                  <Option type="QString" name="name" value=""/>
                   <Option name="properties"/>
-                  <Option value="collection" name="type" type="QString"/>
+                  <Option type="QString" name="type" value="collection"/>
                 </Option>
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol clip_to_extent="1" force_rhr="0" name="1" alpha="1" type="fill">
-            <layer class="SimpleFill" locked="0" pass="0" enabled="1">
+          <symbol force_rhr="0" alpha="1" type="fill" name="1" clip_to_extent="1">
+            <layer pass="0" class="SimpleFill" locked="0" enabled="1">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="254,217,142,255" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -286,15 +301,15 @@
               <prop v="solid" k="style"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option value="" name="name" type="QString"/>
+                  <Option type="QString" name="name" value=""/>
                   <Option name="properties"/>
-                  <Option value="collection" name="type" type="QString"/>
+                  <Option type="QString" name="type" value="collection"/>
                 </Option>
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol clip_to_extent="1" force_rhr="0" name="2" alpha="1" type="fill">
-            <layer class="SimpleFill" locked="0" pass="0" enabled="1">
+          <symbol force_rhr="0" alpha="1" type="fill" name="2" clip_to_extent="1">
+            <layer pass="0" class="SimpleFill" locked="0" enabled="1">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="254,153,41,255" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -308,15 +323,15 @@
               <prop v="solid" k="style"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option value="" name="name" type="QString"/>
+                  <Option type="QString" name="name" value=""/>
                   <Option name="properties"/>
-                  <Option value="collection" name="type" type="QString"/>
+                  <Option type="QString" name="type" value="collection"/>
                 </Option>
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol clip_to_extent="1" force_rhr="0" name="3" alpha="1" type="fill">
-            <layer class="SimpleFill" locked="0" pass="0" enabled="1">
+          <symbol force_rhr="0" alpha="1" type="fill" name="3" clip_to_extent="1">
+            <layer pass="0" class="SimpleFill" locked="0" enabled="1">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="217,95,14,255" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -330,15 +345,15 @@
               <prop v="solid" k="style"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option value="" name="name" type="QString"/>
+                  <Option type="QString" name="name" value=""/>
                   <Option name="properties"/>
-                  <Option value="collection" name="type" type="QString"/>
+                  <Option type="QString" name="type" value="collection"/>
                 </Option>
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol clip_to_extent="1" force_rhr="0" name="4" alpha="1" type="fill">
-            <layer class="SimpleFill" locked="0" pass="0" enabled="1">
+          <symbol force_rhr="0" alpha="1" type="fill" name="4" clip_to_extent="1">
+            <layer pass="0" class="SimpleFill" locked="0" enabled="1">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="153,52,4,255" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -352,9 +367,9 @@
               <prop v="solid" k="style"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option value="" name="name" type="QString"/>
+                  <Option type="QString" name="name" value=""/>
                   <Option name="properties"/>
-                  <Option value="collection" name="type" type="QString"/>
+                  <Option type="QString" name="type" value="collection"/>
                 </Option>
               </data_defined_properties>
             </layer>
@@ -363,12 +378,12 @@
       </renderer-v2>
       <labeling type="simple">
         <settings calloutType="simple">
-          <text-style textOpacity="1" fontCapitals="0" fontUnderline="0" namedStyle="Grassetto" fontFamily="Arial" fontWeight="75" isExpression="1" fieldName="&quot;ZU&quot; || '\n' || &quot;zoneurbane_casi&quot;" blendMode="0" fontItalic="0" fontWordSpacing="0" fontLetterSpacing="0" useSubstitutions="0" fontSize="10" previewBkgrdColor="255,255,255,255" multilineHeight="1" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontSizeUnit="Point" fontStrikeout="0" textColor="0,0,0,255" fontKerning="1" textOrientation="horizontal">
-            <text-buffer bufferJoinStyle="128" bufferDraw="1" bufferNoFill="1" bufferSize="1" bufferSizeUnits="MM" bufferOpacity="1" bufferBlendMode="0" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferColor="104,185,238,255"/>
-            <text-mask maskedSymbolLayers="" maskType="0" maskSizeUnits="MM" maskSize="1.5" maskOpacity="1" maskEnabled="0" maskJoinStyle="128" maskSizeMapUnitScale="3x:0,0,0,0,0,0"/>
-            <background shapeSizeType="0" shapeJoinStyle="64" shapeDraw="0" shapeOffsetY="0" shapeRadiiUnit="MM" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeRotation="0" shapeBorderWidth="0" shapeSizeUnit="MM" shapeBorderColor="128,128,128,255" shapeBlendMode="0" shapeFillColor="255,255,255,255" shapeRadiiY="0" shapeBorderWidthUnit="MM" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeOpacity="1" shapeOffsetUnit="MM" shapeType="0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeSizeX="0" shapeSVGFile="" shapeOffsetX="0" shapeRotationType="0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiX="0" shapeSizeY="0">
-              <symbol clip_to_extent="1" force_rhr="0" name="markerSymbol" alpha="1" type="marker">
-                <layer class="SimpleMarker" locked="0" pass="0" enabled="1">
+          <text-style fontFamily="Arial" textColor="0,0,0,255" useSubstitutions="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" isExpression="1" previewBkgrdColor="255,255,255,255" textOrientation="horizontal" namedStyle="Grassetto" multilineHeight="1" fontLetterSpacing="0" fontSize="10" fontUnderline="0" fontStrikeout="0" fontItalic="0" fontWordSpacing="0" fontCapitals="0" fontWeight="75" blendMode="0" fieldName="&quot;ZU&quot; || '\n' || &quot;zoneurbane_casi&quot;" fontSizeUnit="Point" textOpacity="1" fontKerning="1">
+            <text-buffer bufferColor="104,185,238,255" bufferSizeUnits="MM" bufferDraw="1" bufferNoFill="1" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferBlendMode="0" bufferOpacity="1" bufferSize="1" bufferJoinStyle="128"/>
+            <text-mask maskJoinStyle="128" maskSize="1.5" maskSizeUnits="MM" maskedSymbolLayers="" maskEnabled="0" maskSizeMapUnitScale="3x:0,0,0,0,0,0" maskOpacity="1" maskType="0"/>
+            <background shapeBorderWidth="0" shapeOpacity="1" shapeSizeType="0" shapeRotation="0" shapeOffsetX="0" shapeRadiiY="0" shapeSVGFile="" shapeRadiiUnit="MM" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeSizeY="0" shapeSizeX="0" shapeType="0" shapeRadiiX="0" shapeRotationType="0" shapeSizeUnit="MM" shapeBlendMode="0" shapeBorderColor="128,128,128,255" shapeBorderWidthUnit="MM" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeJoinStyle="64" shapeOffsetY="0" shapeFillColor="255,255,255,255" shapeOffsetUnit="MM" shapeDraw="0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0">
+              <symbol force_rhr="0" alpha="1" type="marker" name="markerSymbol" clip_to_extent="1">
+                <layer pass="0" class="SimpleMarker" locked="0" enabled="1">
                   <prop v="0" k="angle"/>
                   <prop v="232,113,141,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -389,73 +404,74 @@
                   <prop v="1" k="vertical_anchor_point"/>
                   <data_defined_properties>
                     <Option type="Map">
-                      <Option value="" name="name" type="QString"/>
+                      <Option type="QString" name="name" value=""/>
                       <Option name="properties"/>
-                      <Option value="collection" name="type" type="QString"/>
+                      <Option type="QString" name="type" value="collection"/>
                     </Option>
                   </data_defined_properties>
                 </layer>
               </symbol>
             </background>
-            <shadow shadowOffsetDist="1" shadowOpacity="0.7" shadowScale="100" shadowUnder="0" shadowRadiusUnit="MM" shadowOffsetGlobal="1" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowColor="0,0,0,255" shadowRadiusAlphaOnly="0" shadowBlendMode="6" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowOffsetAngle="135" shadowRadius="1.5" shadowOffsetUnit="MM" shadowDraw="0"/>
+            <shadow shadowRadiusUnit="MM" shadowOffsetDist="1" shadowOffsetGlobal="1" shadowColor="0,0,0,255" shadowOffsetAngle="135" shadowRadius="1.5" shadowOffsetUnit="MM" shadowScale="100" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowRadiusAlphaOnly="0" shadowBlendMode="6" shadowUnder="0" shadowDraw="0" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowOpacity="0.7"/>
             <dd_properties>
               <Option type="Map">
-                <Option value="" name="name" type="QString"/>
+                <Option type="QString" name="name" value=""/>
                 <Option name="properties"/>
-                <Option value="collection" name="type" type="QString"/>
+                <Option type="QString" name="type" value="collection"/>
               </Option>
             </dd_properties>
             <substitutions/>
           </text-style>
-          <text-format addDirectionSymbol="0" useMaxLineLengthForAutoWrap="1" multilineAlign="1" rightDirectionSymbol=">" decimals="3" autoWrapLength="0" formatNumbers="0" wrapChar="" plussign="0" reverseDirectionSymbol="0" leftDirectionSymbol="&lt;" placeDirectionSymbol="0"/>
-          <placement labelOffsetMapUnitScale="3x:0,0,0,0,0,0" quadOffset="4" distMapUnitScale="3x:0,0,0,0,0,0" xOffset="0" distUnits="MM" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" dist="0" offsetUnits="MM" yOffset="0" layerType="PolygonGeometry" maxCurvedCharAngleOut="-25" offsetType="0" preserveRotation="1" overrunDistanceUnit="MM" overrunDistanceMapUnitScale="3x:0,0,0,0,0,0" repeatDistanceUnits="MM" placement="0" overrunDistance="0" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" centroidWhole="0" geometryGenerator="" maxCurvedCharAngleIn="25" fitInPolygonOnly="0" rotationAngle="0" centroidInside="0" priority="5" placementFlags="10" repeatDistance="0" geometryGeneratorEnabled="0" geometryGeneratorType="PointGeometry"/>
-          <rendering scaleVisibility="0" fontLimitPixelSize="0" obstacleType="1" maxNumLabels="2000" limitNumLabels="0" obstacle="1" fontMaxPixelSize="10000" zIndex="0" mergeLines="0" scaleMin="0" obstacleFactor="1" upsidedownLabels="0" displayAll="0" drawLabels="1" scaleMax="0" labelPerPart="0" fontMinPixelSize="3" minFeatureSize="0"/>
+          <text-format multilineAlign="1" reverseDirectionSymbol="0" placeDirectionSymbol="0" autoWrapLength="0" wrapChar="" formatNumbers="0" rightDirectionSymbol=">" addDirectionSymbol="0" leftDirectionSymbol="&lt;" useMaxLineLengthForAutoWrap="1" decimals="3" plussign="0"/>
+          <placement preserveRotation="1" distMapUnitScale="3x:0,0,0,0,0,0" overrunDistanceMapUnitScale="3x:0,0,0,0,0,0" distUnits="MM" offsetUnits="MM" placementFlags="10" overrunDistanceUnit="MM" maxCurvedCharAngleIn="25" maxCurvedCharAngleOut="-25" repeatDistanceUnits="MM" layerType="PolygonGeometry" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" geometryGeneratorEnabled="0" priority="5" quadOffset="4" yOffset="0" fitInPolygonOnly="0" geometryGenerator="" geometryGeneratorType="PointGeometry" rotationAngle="0" xOffset="0" centroidInside="0" centroidWhole="0" repeatDistance="0" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" offsetType="0" overrunDistance="0" dist="0" placement="0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR"/>
+          <rendering scaleMax="0" fontMinPixelSize="3" limitNumLabels="0" displayAll="0" mergeLines="0" obstacleFactor="1" zIndex="0" labelPerPart="0" fontMaxPixelSize="10000" drawLabels="1" obstacleType="1" minFeatureSize="0" maxNumLabels="2000" scaleVisibility="0" scaleMin="0" fontLimitPixelSize="0" obstacle="1" upsidedownLabels="0"/>
           <dd_properties>
             <Option type="Map">
-              <Option value="" name="name" type="QString"/>
+              <Option type="QString" name="name" value=""/>
               <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
+              <Option type="QString" name="type" value="collection"/>
             </Option>
           </dd_properties>
           <callout type="simple">
             <Option type="Map">
-              <Option value="pole_of_inaccessibility" name="anchorPoint" type="QString"/>
-              <Option name="ddProperties" type="Map">
-                <Option value="" name="name" type="QString"/>
+              <Option type="QString" name="anchorPoint" value="pole_of_inaccessibility"/>
+              <Option type="Map" name="ddProperties">
+                <Option type="QString" name="name" value=""/>
                 <Option name="properties"/>
-                <Option value="collection" name="type" type="QString"/>
+                <Option type="QString" name="type" value="collection"/>
               </Option>
-              <Option value="false" name="drawToAllParts" type="bool"/>
-              <Option value="0" name="enabled" type="QString"/>
-              <Option value="&lt;symbol clip_to_extent=&quot;1&quot; force_rhr=&quot;0&quot; name=&quot;symbol&quot; alpha=&quot;1&quot; type=&quot;line&quot;>&lt;layer class=&quot;SimpleLine&quot; locked=&quot;0&quot; pass=&quot;0&quot; enabled=&quot;1&quot;>&lt;prop v=&quot;square&quot; k=&quot;capstyle&quot;/>&lt;prop v=&quot;5;2&quot; k=&quot;customdash&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;customdash_map_unit_scale&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;customdash_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;draw_inside_polygon&quot;/>&lt;prop v=&quot;bevel&quot; k=&quot;joinstyle&quot;/>&lt;prop v=&quot;60,60,60,255&quot; k=&quot;line_color&quot;/>&lt;prop v=&quot;solid&quot; k=&quot;line_style&quot;/>&lt;prop v=&quot;0.3&quot; k=&quot;line_width&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;line_width_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;offset&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;offset_map_unit_scale&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;offset_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;ring_filter&quot;/>&lt;prop v=&quot;0&quot; k=&quot;use_custom_dash&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;width_map_unit_scale&quot;/>&lt;data_defined_properties>&lt;Option type=&quot;Map&quot;>&lt;Option value=&quot;&quot; name=&quot;name&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;properties&quot;/>&lt;Option value=&quot;collection&quot; name=&quot;type&quot; type=&quot;QString&quot;/>&lt;/Option>&lt;/data_defined_properties>&lt;/layer>&lt;/symbol>" name="lineSymbol" type="QString"/>
-              <Option value="0" name="minLength" type="double"/>
-              <Option value="3x:0,0,0,0,0,0" name="minLengthMapUnitScale" type="QString"/>
-              <Option value="MM" name="minLengthUnit" type="QString"/>
-              <Option value="0" name="offsetFromAnchor" type="double"/>
-              <Option value="3x:0,0,0,0,0,0" name="offsetFromAnchorMapUnitScale" type="QString"/>
-              <Option value="MM" name="offsetFromAnchorUnit" type="QString"/>
-              <Option value="0" name="offsetFromLabel" type="double"/>
-              <Option value="3x:0,0,0,0,0,0" name="offsetFromLabelMapUnitScale" type="QString"/>
-              <Option value="MM" name="offsetFromLabelUnit" type="QString"/>
+              <Option type="bool" name="drawToAllParts" value="false"/>
+              <Option type="QString" name="enabled" value="0"/>
+              <Option type="QString" name="lineSymbol" value="&lt;symbol force_rhr=&quot;0&quot; alpha=&quot;1&quot; type=&quot;line&quot; name=&quot;symbol&quot; clip_to_extent=&quot;1&quot;>&lt;layer pass=&quot;0&quot; class=&quot;SimpleLine&quot; locked=&quot;0&quot; enabled=&quot;1&quot;>&lt;prop v=&quot;square&quot; k=&quot;capstyle&quot;/>&lt;prop v=&quot;5;2&quot; k=&quot;customdash&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;customdash_map_unit_scale&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;customdash_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;draw_inside_polygon&quot;/>&lt;prop v=&quot;bevel&quot; k=&quot;joinstyle&quot;/>&lt;prop v=&quot;60,60,60,255&quot; k=&quot;line_color&quot;/>&lt;prop v=&quot;solid&quot; k=&quot;line_style&quot;/>&lt;prop v=&quot;0.3&quot; k=&quot;line_width&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;line_width_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;offset&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;offset_map_unit_scale&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;offset_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;ring_filter&quot;/>&lt;prop v=&quot;0&quot; k=&quot;use_custom_dash&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;width_map_unit_scale&quot;/>&lt;data_defined_properties>&lt;Option type=&quot;Map&quot;>&lt;Option type=&quot;QString&quot; name=&quot;name&quot; value=&quot;&quot;/>&lt;Option name=&quot;properties&quot;/>&lt;Option type=&quot;QString&quot; name=&quot;type&quot; value=&quot;collection&quot;/>&lt;/Option>&lt;/data_defined_properties>&lt;/layer>&lt;/symbol>"/>
+              <Option type="double" name="minLength" value="0"/>
+              <Option type="QString" name="minLengthMapUnitScale" value="3x:0,0,0,0,0,0"/>
+              <Option type="QString" name="minLengthUnit" value="MM"/>
+              <Option type="double" name="offsetFromAnchor" value="0"/>
+              <Option type="QString" name="offsetFromAnchorMapUnitScale" value="3x:0,0,0,0,0,0"/>
+              <Option type="QString" name="offsetFromAnchorUnit" value="MM"/>
+              <Option type="double" name="offsetFromLabel" value="0"/>
+              <Option type="QString" name="offsetFromLabelMapUnitScale" value="3x:0,0,0,0,0,0"/>
+              <Option type="QString" name="offsetFromLabelUnit" value="MM"/>
             </Option>
           </callout>
         </settings>
       </labeling>
       <customproperties>
-        <property value="true" key="isOfflineEditable"/>
-        <property value="ogr" key="remoteProvider"/>
-        <property value="D:/GITHUB/Mappa_Roma_Covid/ZU_shapefile|layername=ZU_COD" key="remoteSource"/>
+        <property value="&quot;Name&quot;" key="dualview/previewExpressions"/>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
       </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>0.524</layerOpacity>
       <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-        <DiagramCategory sizeScale="3x:0,0,0,0,0,0" height="15" width="15" minimumSize="0" rotationOffset="270" spacing="5" lineSizeScale="3x:0,0,0,0,0,0" scaleBasedVisibility="0" sizeType="MM" penWidth="0" direction="0" spacingUnitScale="3x:0,0,0,0,0,0" enabled="0" backgroundAlpha="255" penAlpha="255" lineSizeType="MM" labelPlacementMethod="XHeight" minScaleDenominator="0" spacingUnit="MM" scaleDependency="Area" showAxis="1" penColor="#000000" backgroundColor="#ffffff" barWidth="5" opacity="1" maxScaleDenominator="1e+08" diagramOrientation="Up">
+        <DiagramCategory sizeScale="3x:0,0,0,0,0,0" scaleDependency="Area" scaleBasedVisibility="0" penColor="#000000" direction="0" lineSizeScale="3x:0,0,0,0,0,0" minScaleDenominator="0" diagramOrientation="Up" backgroundColor="#ffffff" enabled="0" sizeType="MM" rotationOffset="270" maxScaleDenominator="1e+08" showAxis="1" backgroundAlpha="255" spacingUnit="MM" spacing="5" spacingUnitScale="3x:0,0,0,0,0,0" width="15" lineSizeType="MM" height="15" minimumSize="0" barWidth="5" penWidth="0" labelPlacementMethod="XHeight" opacity="1" penAlpha="255">
           <fontProperties style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
-          <attribute color="#000000" field="" label=""/>
+          <attribute field="" color="#000000" label=""/>
           <axisSymbol>
-            <symbol clip_to_extent="1" force_rhr="0" name="" alpha="1" type="line">
-              <layer class="SimpleLine" locked="0" pass="0" enabled="1">
+            <symbol force_rhr="0" alpha="1" type="line" name="" clip_to_extent="1">
+              <layer pass="0" class="SimpleLine" locked="0" enabled="1">
                 <prop v="square" k="capstyle"/>
                 <prop v="5;2" k="customdash"/>
                 <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -474,9 +490,9 @@
                 <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
                 <data_defined_properties>
                   <Option type="Map">
-                    <Option value="" name="name" type="QString"/>
+                    <Option type="QString" name="name" value=""/>
                     <Option name="properties"/>
-                    <Option value="collection" name="type" type="QString"/>
+                    <Option type="QString" name="type" value="collection"/>
                   </Option>
                 </data_defined_properties>
               </layer>
@@ -484,35 +500,28 @@
           </axisSymbol>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings priority="0" linePlacementFlags="18" placement="1" dist="0" obstacle="0" zIndex="0" showAll="1">
+      <DiagramLayerSettings zIndex="0" obstacle="0" linePlacementFlags="18" priority="0" dist="0" showAll="1" placement="1">
         <properties>
           <Option type="Map">
-            <Option value="" name="name" type="QString"/>
+            <Option type="QString" name="name" value=""/>
             <Option name="properties"/>
-            <Option value="collection" name="type" type="QString"/>
+            <Option type="QString" name="type" value="collection"/>
           </Option>
         </properties>
       </DiagramLayerSettings>
       <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
         <activeChecks/>
         <checkConfiguration type="Map">
-          <Option name="QgsGeometryGapCheck" type="Map">
-            <Option value="0" name="allowedGapsBuffer" type="double"/>
-            <Option value="false" name="allowedGapsEnabled" type="bool"/>
-            <Option value="" name="allowedGapsLayer" type="QString"/>
+          <Option type="Map" name="QgsGeometryGapCheck">
+            <Option type="double" name="allowedGapsBuffer" value="0"/>
+            <Option type="bool" name="allowedGapsEnabled" value="false"/>
+            <Option type="QString" name="allowedGapsLayer" value=""/>
           </Option>
         </checkConfiguration>
       </geometryOptions>
       <referencedLayers/>
       <referencingLayers/>
       <fieldConfiguration>
-        <field name="fid">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
         <field name="Name">
           <editWidget type="TextEdit">
             <config>
@@ -592,51 +601,47 @@
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias field="fid" index="0" name=""/>
-        <alias field="Name" index="1" name=""/>
-        <alias field="ZU" index="2" name=""/>
-        <alias field="CODZU" index="3" name=""/>
-        <alias field="TIPZU" index="4" name=""/>
-        <alias field="MUNICIPIO" index="5" name=""/>
-        <alias field="GRA" index="6" name=""/>
-        <alias field="SUPERFICIE" index="7" name=""/>
-        <alias field="zoneurbane_cod" index="8" name=""/>
-        <alias field="zoneurbane_zona" index="9" name=""/>
-        <alias field="zoneurbane_casi" index="10" name=""/>
-        <alias field="zoneurbane_tasso" index="11" name=""/>
+        <alias field="Name" name="" index="0"/>
+        <alias field="ZU" name="" index="1"/>
+        <alias field="CODZU" name="" index="2"/>
+        <alias field="TIPZU" name="" index="3"/>
+        <alias field="MUNICIPIO" name="" index="4"/>
+        <alias field="GRA" name="" index="5"/>
+        <alias field="SUPERFICIE" name="" index="6"/>
+        <alias field="zoneurbane_cod" name="" index="7"/>
+        <alias field="zoneurbane_zona" name="" index="8"/>
+        <alias field="zoneurbane_casi" name="" index="9"/>
+        <alias field="zoneurbane_tasso" name="" index="10"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default expression="" field="fid" applyOnUpdate="0"/>
-        <default expression="" field="Name" applyOnUpdate="0"/>
-        <default expression="" field="ZU" applyOnUpdate="0"/>
-        <default expression="" field="CODZU" applyOnUpdate="0"/>
-        <default expression="" field="TIPZU" applyOnUpdate="0"/>
-        <default expression="" field="MUNICIPIO" applyOnUpdate="0"/>
-        <default expression="" field="GRA" applyOnUpdate="0"/>
-        <default expression="" field="SUPERFICIE" applyOnUpdate="0"/>
-        <default expression="" field="zoneurbane_cod" applyOnUpdate="0"/>
-        <default expression="" field="zoneurbane_zona" applyOnUpdate="0"/>
-        <default expression="" field="zoneurbane_casi" applyOnUpdate="0"/>
-        <default expression="" field="zoneurbane_tasso" applyOnUpdate="0"/>
+        <default field="Name" expression="" applyOnUpdate="0"/>
+        <default field="ZU" expression="" applyOnUpdate="0"/>
+        <default field="CODZU" expression="" applyOnUpdate="0"/>
+        <default field="TIPZU" expression="" applyOnUpdate="0"/>
+        <default field="MUNICIPIO" expression="" applyOnUpdate="0"/>
+        <default field="GRA" expression="" applyOnUpdate="0"/>
+        <default field="SUPERFICIE" expression="" applyOnUpdate="0"/>
+        <default field="zoneurbane_cod" expression="" applyOnUpdate="0"/>
+        <default field="zoneurbane_zona" expression="" applyOnUpdate="0"/>
+        <default field="zoneurbane_casi" expression="" applyOnUpdate="0"/>
+        <default field="zoneurbane_tasso" expression="" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint unique_strength="1" exp_strength="0" notnull_strength="1" field="fid" constraints="3"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="Name" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="ZU" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="CODZU" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="TIPZU" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="MUNICIPIO" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="GRA" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="SUPERFICIE" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="zoneurbane_cod" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="zoneurbane_zona" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="zoneurbane_casi" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="zoneurbane_tasso" constraints="0"/>
+        <constraint field="Name" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="ZU" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="CODZU" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="TIPZU" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="MUNICIPIO" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="GRA" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="SUPERFICIE" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="zoneurbane_cod" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="zoneurbane_zona" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="zoneurbane_casi" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="zoneurbane_tasso" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint field="fid" exp="" desc=""/>
         <constraint field="Name" exp="" desc=""/>
         <constraint field="ZU" exp="" desc=""/>
         <constraint field="CODZU" exp="" desc=""/>
@@ -653,20 +658,20 @@
       <attributeactions>
         <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
-      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
         <columns>
-          <column name="Name" type="field" hidden="0" width="-1"/>
-          <column name="ZU" type="field" hidden="0" width="-1"/>
-          <column name="CODZU" type="field" hidden="0" width="-1"/>
-          <column name="TIPZU" type="field" hidden="0" width="-1"/>
-          <column name="MUNICIPIO" type="field" hidden="0" width="-1"/>
-          <column name="GRA" type="field" hidden="0" width="-1"/>
-          <column name="SUPERFICIE" type="field" hidden="0" width="-1"/>
-          <column type="actions" hidden="1" width="-1"/>
-          <column name="zoneurbane_cod" type="field" hidden="0" width="-1"/>
-          <column name="zoneurbane_zona" type="field" hidden="0" width="-1"/>
-          <column name="zoneurbane_casi" type="field" hidden="0" width="-1"/>
-          <column name="zoneurbane_tasso" type="field" hidden="0" width="-1"/>
+          <column hidden="0" type="field" name="Name" width="-1"/>
+          <column hidden="0" type="field" name="ZU" width="-1"/>
+          <column hidden="0" type="field" name="CODZU" width="-1"/>
+          <column hidden="0" type="field" name="TIPZU" width="-1"/>
+          <column hidden="0" type="field" name="MUNICIPIO" width="-1"/>
+          <column hidden="0" type="field" name="GRA" width="-1"/>
+          <column hidden="0" type="field" name="SUPERFICIE" width="-1"/>
+          <column hidden="1" type="actions" width="-1"/>
+          <column hidden="0" type="field" name="zoneurbane_cod" width="-1"/>
+          <column hidden="0" type="field" name="zoneurbane_zona" width="-1"/>
+          <column hidden="0" type="field" name="zoneurbane_casi" width="-1"/>
+          <column hidden="0" type="field" name="zoneurbane_tasso" width="-1"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
@@ -698,38 +703,38 @@ def my_form_open(dialog, layer, feature):
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
       <editable>
-        <field editable="1" name="CODZU"/>
-        <field editable="1" name="GRA"/>
-        <field editable="1" name="MUNICIPIO"/>
-        <field editable="1" name="Name"/>
-        <field editable="1" name="SUPERFICIE"/>
-        <field editable="1" name="TIPZU"/>
-        <field editable="1" name="ZU"/>
-        <field editable="0" name="zoneurbane_casi"/>
-        <field editable="0" name="zoneurbane_cod"/>
-        <field editable="0" name="zoneurbane_tasso"/>
-        <field editable="0" name="zoneurbane_zona"/>
+        <field name="CODZU" editable="1"/>
+        <field name="GRA" editable="1"/>
+        <field name="MUNICIPIO" editable="1"/>
+        <field name="Name" editable="1"/>
+        <field name="SUPERFICIE" editable="1"/>
+        <field name="TIPZU" editable="1"/>
+        <field name="ZU" editable="1"/>
+        <field name="zoneurbane_casi" editable="0"/>
+        <field name="zoneurbane_cod" editable="0"/>
+        <field name="zoneurbane_tasso" editable="0"/>
+        <field name="zoneurbane_zona" editable="0"/>
       </editable>
       <labelOnTop>
-        <field labelOnTop="0" name="CODZU"/>
-        <field labelOnTop="0" name="GRA"/>
-        <field labelOnTop="0" name="MUNICIPIO"/>
-        <field labelOnTop="0" name="Name"/>
-        <field labelOnTop="0" name="SUPERFICIE"/>
-        <field labelOnTop="0" name="TIPZU"/>
-        <field labelOnTop="0" name="ZU"/>
-        <field labelOnTop="0" name="zoneurbane_casi"/>
-        <field labelOnTop="0" name="zoneurbane_cod"/>
-        <field labelOnTop="0" name="zoneurbane_tasso"/>
-        <field labelOnTop="0" name="zoneurbane_zona"/>
+        <field name="CODZU" labelOnTop="0"/>
+        <field name="GRA" labelOnTop="0"/>
+        <field name="MUNICIPIO" labelOnTop="0"/>
+        <field name="Name" labelOnTop="0"/>
+        <field name="SUPERFICIE" labelOnTop="0"/>
+        <field name="TIPZU" labelOnTop="0"/>
+        <field name="ZU" labelOnTop="0"/>
+        <field name="zoneurbane_casi" labelOnTop="0"/>
+        <field name="zoneurbane_cod" labelOnTop="0"/>
+        <field name="zoneurbane_tasso" labelOnTop="0"/>
+        <field name="zoneurbane_zona" labelOnTop="0"/>
       </labelOnTop>
       <widgets/>
       <previewExpression>Name</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer wkbType="NoGeometry" minScale="1e+08" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" maxScale="0" refreshOnNotifyEnabled="0" readOnly="0" geometry="No geometry" autoRefreshTime="10000" autoRefreshEnabled="1" type="vector" hasScaleBasedVisibilityFlag="0">
+    <maplayer autoRefreshEnabled="1" hasScaleBasedVisibilityFlag="0" minScale="1e+08" geometry="No geometry" wkbType="NoGeometry" styleCategories="AllStyleCategories" readOnly="0" type="vector" autoRefreshTime="10000" maxScale="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="">
       <id>zoneurbane_7bd48b6e_6d51_4d88_a623_d11a2f8711ed</id>
-      <datasource>/vsicurl/https://raw.githubusercontent.com/totarello91/Mappa_Roma_Covid/master/processing/zoneurbane.csv</datasource>
+      <datasource>./zoneurbane.csv</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -744,7 +749,7 @@ def my_form_open(dialog, layer, feature):
           <description></description>
           <projectionacronym></projectionacronym>
           <ellipsoidacronym></ellipsoidacronym>
-          <geographicflag>false</geographicflag>
+          <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
       <resourceMetadata>
@@ -776,11 +781,11 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial maxz="0" maxx="0" maxy="0" minz="0" crs="" minx="0" miny="0" dimensions="2"/>
+          <spatial maxz="0" minx="0" minz="0" maxy="0" maxx="0" dimensions="2" crs="" miny="0"/>
           <temporal>
             <period>
               <start></start>
@@ -795,7 +800,7 @@ def my_form_open(dialog, layer, feature):
       <dataDependencies/>
       <legend type="default-vector"/>
       <expressionfields>
-        <field typeName="string" expression="upper(&quot;cod&quot;)" subType="0" length="0" name="COD" precision="0" type="10" comment=""/>
+        <field expression="upper(&quot;cod&quot;)" precision="0" length="0" subType="0" comment="" name="COD" type="10" typeName="string"/>
       </expressionfields>
       <map-layer-style-manager current="default">
         <map-layer-style name="default"/>
@@ -807,6 +812,8 @@ def my_form_open(dialog, layer, feature):
         <Searchable>1</Searchable>
       </flags>
       <customproperties>
+        <property value="keep_existent" key="QFieldSync/action"/>
+        <property value="{}" key="QFieldSync/photo_naming"/>
         <property key="dualview/previewExpressions">
           <value>cod</value>
           <value>"cod"</value>
@@ -859,27 +866,27 @@ def my_form_open(dialog, layer, feature):
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias field="cod" index="0" name=""/>
-        <alias field="zona" index="1" name=""/>
-        <alias field="casi" index="2" name=""/>
-        <alias field="tasso" index="3" name=""/>
-        <alias field="COD" index="4" name=""/>
+        <alias field="cod" name="" index="0"/>
+        <alias field="zona" name="" index="1"/>
+        <alias field="casi" name="" index="2"/>
+        <alias field="tasso" name="" index="3"/>
+        <alias field="COD" name="" index="4"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default expression="" field="cod" applyOnUpdate="0"/>
-        <default expression="" field="zona" applyOnUpdate="0"/>
-        <default expression="" field="casi" applyOnUpdate="0"/>
-        <default expression="" field="tasso" applyOnUpdate="0"/>
-        <default expression="" field="COD" applyOnUpdate="0"/>
+        <default field="cod" expression="" applyOnUpdate="0"/>
+        <default field="zona" expression="" applyOnUpdate="0"/>
+        <default field="casi" expression="" applyOnUpdate="0"/>
+        <default field="tasso" expression="" applyOnUpdate="0"/>
+        <default field="COD" expression="" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="cod" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="zona" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="casi" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="tasso" constraints="0"/>
-        <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="COD" constraints="0"/>
+        <constraint field="cod" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="zona" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="casi" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="tasso" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="COD" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
       </constraints>
       <constraintExpressions>
         <constraint field="cod" exp="" desc=""/>
@@ -889,19 +896,19 @@ def my_form_open(dialog, layer, feature):
         <constraint field="COD" exp="" desc=""/>
       </constraintExpressions>
       <expressionfields>
-        <field typeName="string" expression="upper(&quot;cod&quot;)" subType="0" length="0" name="COD" precision="0" type="10" comment=""/>
+        <field expression="upper(&quot;cod&quot;)" precision="0" length="0" subType="0" comment="" name="COD" type="10" typeName="string"/>
       </expressionfields>
       <attributeactions>
         <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
-      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="1" sortExpression="&quot;zona&quot;">
+      <attributetableconfig sortExpression="&quot;zona&quot;" actionWidgetStyle="dropDown" sortOrder="1">
         <columns>
-          <column name="cod" type="field" hidden="0" width="-1"/>
-          <column name="zona" type="field" hidden="0" width="-1"/>
-          <column name="casi" type="field" hidden="0" width="-1"/>
-          <column name="tasso" type="field" hidden="0" width="-1"/>
-          <column type="actions" hidden="1" width="-1"/>
-          <column name="COD" type="field" hidden="0" width="-1"/>
+          <column hidden="0" type="field" name="cod" width="-1"/>
+          <column hidden="0" type="field" name="zona" width="-1"/>
+          <column hidden="0" type="field" name="casi" width="-1"/>
+          <column hidden="0" type="field" name="tasso" width="-1"/>
+          <column hidden="1" type="actions" width="-1"/>
+          <column hidden="0" type="field" name="COD" width="-1"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
@@ -933,18 +940,18 @@ def my_form_open(dialog, layer, feature):
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
       <editable>
-        <field editable="0" name="COD"/>
-        <field editable="1" name="casi"/>
-        <field editable="1" name="cod"/>
-        <field editable="1" name="tasso"/>
-        <field editable="1" name="zona"/>
+        <field name="COD" editable="0"/>
+        <field name="casi" editable="1"/>
+        <field name="cod" editable="1"/>
+        <field name="tasso" editable="1"/>
+        <field name="zona" editable="1"/>
       </editable>
       <labelOnTop>
-        <field labelOnTop="0" name="COD"/>
-        <field labelOnTop="0" name="casi"/>
-        <field labelOnTop="0" name="cod"/>
-        <field labelOnTop="0" name="tasso"/>
-        <field labelOnTop="0" name="zona"/>
+        <field name="COD" labelOnTop="0"/>
+        <field name="casi" labelOnTop="0"/>
+        <field name="cod" labelOnTop="0"/>
+        <field name="tasso" labelOnTop="0"/>
+        <field name="zona" labelOnTop="0"/>
       </labelOnTop>
       <widgets/>
       <previewExpression>cod</previewExpression>
@@ -953,7 +960,7 @@ def my_form_open(dialog, layer, feature):
   </projectlayers>
   <layerorder>
     <layer id="Google_Satellite_2386c6fe_7c80_4bb7_9653_c9d57fd49752"/>
-    <layer id="ZU_shapefile_ZU_COD__offline__0f198062_4e91_4a8a_a41b_b094eeacf067"/>
+    <layer id="ZU_shapefile_ZU_COD_ee267578_7a87_4371_9919_2a611c03b264"/>
   </layerorder>
   <properties>
     <Gui>
@@ -975,9 +982,6 @@ def my_form_open(dialog, layer, feature):
       <AreaUnits type="QString">m2</AreaUnits>
       <DistanceUnits type="QString">meters</DistanceUnits>
     </Measurement>
-    <OfflineEditingPlugin>
-      <OfflineDbPath type="QString">./data.gpkg</OfflineDbPath>
-    </OfflineEditingPlugin>
     <PAL>
       <CandidatesLinePerCM type="double">5</CandidatesLinePerCM>
       <CandidatesPolygonPerCM type="double">2.5</CandidatesPolygonPerCM>
@@ -1021,7 +1025,7 @@ def my_form_open(dialog, layer, feature):
     <parentidentifier></parentidentifier>
     <language></language>
     <type></type>
-    <title>Mappa_Roma_Covid_qfield.qgs (offline)</title>
+    <title></title>
     <abstract></abstract>
     <links/>
     <author>1406568</author>
@@ -1036,14 +1040,14 @@ def my_form_open(dialog, layer, feature):
   <ProjectDisplaySettings>
     <BearingFormat id="bearing">
       <Option type="Map">
-        <Option value="" name="decimal_separator" type="QChar"/>
-        <Option value="6" name="decimals" type="int"/>
-        <Option value="0" name="direction_format" type="int"/>
-        <Option value="0" name="rounding_type" type="int"/>
-        <Option value="false" name="show_plus" type="bool"/>
-        <Option value="true" name="show_thousand_separator" type="bool"/>
-        <Option value="false" name="show_trailing_zeros" type="bool"/>
-        <Option value="" name="thousand_separator" type="QChar"/>
+        <Option type="QChar" name="decimal_separator" value=""/>
+        <Option type="int" name="decimals" value="6"/>
+        <Option type="int" name="direction_format" value="0"/>
+        <Option type="int" name="rounding_type" value="0"/>
+        <Option type="bool" name="show_plus" value="false"/>
+        <Option type="bool" name="show_thousand_separator" value="true"/>
+        <Option type="bool" name="show_trailing_zeros" value="false"/>
+        <Option type="QChar" name="thousand_separator" value=""/>
       </Option>
     </BearingFormat>
   </ProjectDisplaySettings>
