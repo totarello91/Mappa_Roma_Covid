@@ -1,4 +1,11 @@
 #!/bin/bash
+### requisiti ###
+# scrape-cli https://github.com/aborruso/scrape-cli
+# jq https://stedolan.github.io/jq/
+# yq https://github.com/kislyuk/yq
+# Miller https://github.com/johnkerl/miller
+# sed e awk
+### requisiti ###
 set -x
 folder="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 mkdir -p "$folder"/processing
