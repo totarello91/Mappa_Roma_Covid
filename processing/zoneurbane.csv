@@ -1,14 +1,14 @@
 cod,zona,casi,tasso
-10a,Don Bosco,34,6.59
+10a,Don Bosco,35,6.79
 10b,Appio-Claudio,17,5.77
-10c,Quarto Miglio,13,12.21
+10c,Quarto Miglio,14,13.15
 10d,Pignatelli,1,1.55
 10e,Lucrezia Romana,3,5.67
 10f,Osteria del Curato,11,5.76
-10g,Romanina,11,14.94
+10g,Romanina,12,16.3
 10h,Gregna,3,4.23
 10i,Barcaccia,3,2.67
-10l,Morena,15,4.68
+10l,Morena,16,4.99
 10x,Ciampino,0,0
 11a,Ostiense,1,1.28
 11b,Valco S. Paolo,4,5.33
@@ -19,7 +19,7 @@ cod,zona,casi,tasso
 11g,Grottaperfetta,5,3.23
 11x,Appia Antica Nord,1,4
 11y,Appia Antica Sud,0,0
-12a,Eur,6,6.84
+12a,Eur,7,7.98
 12b,Villaggio Giuliano,13,13.24
 12c,Torrino,23,5.66
 12d,Laurentino,15,6.25
@@ -32,7 +32,7 @@ cod,zona,casi,tasso
 12m,Castel Romano,0,0
 12n,Santa Palomba,0,0
 12x,Tor di Valle,0,0
-13a,Malafede,8,4.73
+13a,Malafede,9,5.32
 13b,Acilia Nord,15,5.36
 13c,Acilia Sud,12,4.66
 13d,Palocco,9,3.33
@@ -59,24 +59,24 @@ cod,zona,casi,tasso
 17a,Prati,17,9.62
 17b,Della Vittoria,25,9.77
 17c,Eroi,10,5.12
-18a,Aurelio Sud,15,6.1
+18a,Aurelio Sud,16,6.5
 18b,Val Cannuta,16,4.81
 18c,Fogaccia,23,7.76
 18d,Aurelio Nord,10,5.54
-18e,Casalotti di Boccea,16,9.14
+18e,Casalotti di Boccea,17,9.71
 18f,Boccea,3,3.95
-19a,Medaglie d' Oro,29,7.38
+19a,Medaglie d' Oro,33,8.4
 19b,Primavalle,32,5.71
 19c,Ottavia,19,12.33
 19d,S. Maria della Pieta,22,8.82
-19e,Trionfale,15,8.93
+19e,Trionfale,16,9.53
 19f,Pineto,2,10.7
-19g,Castelluccia,16,5.49
+19g,Castelluccia,17,5.84
 19h,S. Maria di Galeria,1,2.72
-1a,Centro Storico,43,17.54
-1b,Trastevere,4,2.88
+1a,Centro Storico,44,17.94
+1b,Trastevere,5,3.61
 1c,Aventino,9,11.06
-1d,Testaccio,4,5.08
+1d,Testaccio,5,6.35
 1e,Esquilino,32,9.4
 1f,XX Settembre,10,11.1
 1g,Celio,3,7.73
@@ -84,7 +84,7 @@ cod,zona,casi,tasso
 20a,Tor di Quinto,16,12.53
 20b,Acquatraversa,7,7.15
 20c,Tomba di Nerone,26,8.08
-20d,Farnesina,26,13.49
+20d,Farnesina,27,14.01
 20e,Grottarossa Ovest,2,7.69
 20f,Grottarossa Est,0,0
 20g,Giustiniana,21,19.14
@@ -94,28 +94,28 @@ cod,zona,casi,tasso
 20m,Labaro,19,8.64
 20n,Cesano,4,3.62
 20o,Martignano,0,0
-20x,Foro Italico,7,106.87
+20x,Foro Italico,8,122.14
 2a,Villaggio Olimpico,1,3.56
 2b,Parioli,19,8.73
-2c,Flaminio,19,14.58
-2d,Salario,27,10.71
+2c,Flaminio,22,16.88
+2d,Salario,28,11.11
 2e,Trieste,47,8.89
 2x,Villa Borghese,0,0
 2y,Villa Ada,1,11.25
-3a,Nomentano,41,10.55
+3a,Nomentano,42,10.8
 3b,S. Lorenzo,4,4.49
 3x,Universit?,0,0
 3y,Verano,0,0
 4a,Monte Sacro,8,4.86
-4b,Val Melaina,24,6.61
+4b,Val Melaina,25,6.88
 4c,Monte Sacro Alto,13,3.88
 4d,Fidene,7,5.88
-4e,Serpentara,14,4.41
+4e,Serpentara,15,4.73
 4f,Casal Boccone,10,7.22
 4g,Conca d'Oro,11,5.8
 4h,Sacco Pastore,7,6.94
-4i,Tufello,4,2.79
-4l,Aeroporto dell' Urbe,1,5.13
+4i,Tufello,5,3.49
+4l,Aeroporto dell' Urbe,2,10.27
 4m,Settebagni,1,1.94
 4n,Bufalotta,10,13.32
 4o,Tor S. Giovanni,1,11.78
@@ -123,7 +123,7 @@ cod,zona,casi,tasso
 5b,Casal Bruciato,15,7.23
 5c,Tiburtino Nord,18,9.58
 5d,Tiburtino Sud,15,6.58
-5e,S. Basilio,11,4.45
+5e,S. Basilio,12,4.85
 5f,Tor Cervara,1,3.51
 5g,Pietralata,10,7.59
 5h,Casal de' Pazzi,14,5.31
@@ -140,17 +140,17 @@ cod,zona,casi,tasso
 7e,Tor Tre Teste,9,8.27
 7f,Casetta Mistica,0,0
 7g,Centro Direzionale Centocelle,0,0
-7h,Omo,8,40.51
-8a,Torrespaccata,2,1.49
+7h,Omo,9,45.57
+8a,Torrespaccata,3,2.23
 8b,Torre Maura,20,10.24
 8c,Giardinetti-Tor Vergata,19,9.51
 8d,Acqua Vergine,4,5.56
 8e,Lunghezza,20,5.47
-8f,Torre Angela,61,6.96
+8f,Torre Angela,62,7.07
 8g,Borghesiana,28,5.41
 8h,S. Vittorino,11,7.95
-9a,Tuscolano Nord,14,6.45
+9a,Tuscolano Nord,15,6.91
 9b,Tuscolano Sud,30,6.29
 9c,Tor Fiscale,0,0
-9d,Appio,32,11.66
+9d,Appio,34,12.39
 9e,Latino,9,3.98
