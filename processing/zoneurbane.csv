@@ -1,20 +1,20 @@
 cod,zona,casi,tasso
-10a,Don Bosco,35,6.79
+10a,Don Bosco,40,7.76
 10b,Appio-Claudio,17,5.77
-10c,Quarto Miglio,14,13.15
+10c,Quarto Miglio,15,14.09
 10d,Pignatelli,1,1.55
 10e,Lucrezia Romana,3,5.67
-10f,Osteria del Curato,11,5.76
-10g,Romanina,12,16.3
+10f,Osteria del Curato,12,6.28
+10g,Romanina,13,17.66
 10h,Gregna,3,4.23
 10i,Barcaccia,3,2.67
-10l,Morena,16,4.99
+10l,Morena,19,5.92
 10x,Ciampino,0,0
 11a,Ostiense,1,1.28
-11b,Valco S. Paolo,4,5.33
+11b,Valco S. Paolo,5,6.66
 11c,Garbatella,36,8.19
 11d,Navigatori,5,9.68
-11e,Tormarancia,17,5.23
+11e,Tormarancia,19,5.84
 11f,Tre Fontane,4,3.39
 11g,Grottaperfetta,5,3.23
 11x,Appia Antica Nord,1,4
@@ -22,97 +22,97 @@ cod,zona,casi,tasso
 12a,Eur,7,7.98
 12b,Villaggio Giuliano,13,13.24
 12c,Torrino,23,5.66
-12d,Laurentino,15,6.25
+12d,Laurentino,16,6.66
 12e,Cecchignola,11,8
 12f,Mezzocammino,6,4.29
-12g,Spinaceto,20,8.22
-12h,Vallerano Castel di Leva,22,7.47
+12g,Spinaceto,22,9.04
+12h,Vallerano Castel di Leva,23,7.81
 12i,Decima,2,2.42
 12l,Porta Medaglia,1,3.08
 12m,Castel Romano,0,0
 12n,Santa Palomba,0,0
 12x,Tor di Valle,0,0
-13a,Malafede,9,5.32
-13b,Acilia Nord,15,5.36
+13a,Malafede,11,6.51
+13b,Acilia Nord,18,6.44
 13c,Acilia Sud,12,4.66
 13d,Palocco,9,3.33
-13e,Ostia Antica,10,5.86
-13f,Ostia Nord,23,5.46
-13g,Ostia Sud,16,4.53
+13e,Ostia Antica,11,6.44
+13f,Ostia Nord,26,6.17
+13g,Ostia Sud,17,4.82
 13h,Castel Fusano,1,6.81
-13i,Infernetto,22,7.46
+13i,Infernetto,23,7.79
 13x,Castel Porziano,0,0
-15a,Marconi,12,3.46
+15a,Marconi,14,4.04
 15b,Portuense,24,8.26
 15c,Pian Due Torri,20,8.02
-15d,Trullo,13,4.41
+15d,Trullo,14,4.75
 15e,Magliana,2,3.78
 15f,Corviale,4,2.47
-15g,Ponte Galeria,7,5.65
-16a,Colli Portuensi,43,12.07
-16b,Buon Pastore,20,6.53
-16c,Pisana,9,20.56
-16d,Gianicolense,29,5.41
+15g,Ponte Galeria,12,9.69
+16a,Colli Portuensi,49,13.75
+16b,Buon Pastore,21,6.85
+16c,Pisana,10,22.85
+16d,Gianicolense,30,5.6
 16e,Massimina,11,12.2
 16f,Pantano di Grano,6,10.75
 16x,Villa Pamphili,0,0
 17a,Prati,17,9.62
-17b,Della Vittoria,25,9.77
+17b,Della Vittoria,27,10.55
 17c,Eroi,10,5.12
-18a,Aurelio Sud,16,6.5
+18a,Aurelio Sud,17,6.91
 18b,Val Cannuta,16,4.81
 18c,Fogaccia,23,7.76
 18d,Aurelio Nord,10,5.54
 18e,Casalotti di Boccea,17,9.71
 18f,Boccea,3,3.95
 19a,Medaglie d' Oro,33,8.4
-19b,Primavalle,32,5.71
+19b,Primavalle,33,5.89
 19c,Ottavia,19,12.33
-19d,S. Maria della Pieta,22,8.82
+19d,S. Maria della Pieta,26,10.42
 19e,Trionfale,16,9.53
 19f,Pineto,2,10.7
-19g,Castelluccia,17,5.84
+19g,Castelluccia,19,6.52
 19h,S. Maria di Galeria,1,2.72
 1a,Centro Storico,44,17.94
-1b,Trastevere,5,3.61
-1c,Aventino,9,11.06
+1b,Trastevere,6,4.33
+1c,Aventino,10,12.28
 1d,Testaccio,5,6.35
 1e,Esquilino,32,9.4
 1f,XX Settembre,10,11.1
 1g,Celio,3,7.73
 1x,Zona Archeologica,1,13.83
-20a,Tor di Quinto,16,12.53
+20a,Tor di Quinto,17,13.31
 20b,Acquatraversa,7,7.15
 20c,Tomba di Nerone,26,8.08
-20d,Farnesina,27,14.01
+20d,Farnesina,28,14.53
 20e,Grottarossa Ovest,2,7.69
 20f,Grottarossa Est,0,0
 20g,Giustiniana,21,19.14
 20h,La Storta,8,3.92
-20i,S. Cornelia,4,4.47
+20i,S. Cornelia,5,5.58
 20l,Prima Porta,0,0
-20m,Labaro,19,8.64
+20m,Labaro,20,9.1
 20n,Cesano,4,3.62
 20o,Martignano,0,0
 20x,Foro Italico,8,122.14
 2a,Villaggio Olimpico,1,3.56
-2b,Parioli,19,8.73
+2b,Parioli,20,9.19
 2c,Flaminio,22,16.88
 2d,Salario,28,11.11
-2e,Trieste,47,8.89
+2e,Trieste,50,9.46
 2x,Villa Borghese,0,0
 2y,Villa Ada,1,11.25
-3a,Nomentano,42,10.8
+3a,Nomentano,43,11.06
 3b,S. Lorenzo,4,4.49
 3x,Universit?,0,0
 3y,Verano,0,0
 4a,Monte Sacro,8,4.86
-4b,Val Melaina,25,6.88
+4b,Val Melaina,29,7.99
 4c,Monte Sacro Alto,13,3.88
 4d,Fidene,7,5.88
 4e,Serpentara,15,4.73
 4f,Casal Boccone,10,7.22
-4g,Conca d'Oro,11,5.8
+4g,Conca d'Oro,12,6.33
 4h,Sacco Pastore,7,6.94
 4i,Tufello,5,3.49
 4l,Aeroporto dell' Urbe,2,10.27
@@ -120,37 +120,37 @@ cod,zona,casi,tasso
 4n,Bufalotta,10,13.32
 4o,Tor S. Giovanni,1,11.78
 5a,Casal Bertone,8,5.01
-5b,Casal Bruciato,15,7.23
-5c,Tiburtino Nord,18,9.58
-5d,Tiburtino Sud,15,6.58
-5e,S. Basilio,12,4.85
+5b,Casal Bruciato,16,7.72
+5c,Tiburtino Nord,21,11.18
+5d,Tiburtino Sud,17,7.45
+5e,S. Basilio,13,5.26
 5f,Tor Cervara,1,3.51
-5g,Pietralata,10,7.59
+5g,Pietralata,11,8.35
 5h,Casal de' Pazzi,14,5.31
 5i,S. Alessandro,4,3.77
-5l,Settecamini,6,4.75
-6a,Torpignattara,22,4.63
-6b,Casilino,10,9.42
+5l,Settecamini,7,5.54
+6a,Torpignattara,31,6.52
+6b,Casilino,11,10.36
 6c,Quadraro,12,5.78
-6d,Gordiani,24,5.82
-7a,Centocelle,38,7.04
+6d,Gordiani,25,6.06
+7a,Centocelle,45,8.34
 7b,Alessandrina,24,8.98
-7c,Tor Sapienza,4,3.24
-7d,La Rustica,4,3.96
+7c,Tor Sapienza,5,4.05
+7d,La Rustica,5,4.95
 7e,Tor Tre Teste,9,8.27
 7f,Casetta Mistica,0,0
 7g,Centro Direzionale Centocelle,0,0
-7h,Omo,9,45.57
+7h,Omo,10,50.63
 8a,Torrespaccata,3,2.23
 8b,Torre Maura,20,10.24
 8c,Giardinetti-Tor Vergata,19,9.51
-8d,Acqua Vergine,4,5.56
-8e,Lunghezza,20,5.47
-8f,Torre Angela,62,7.07
+8d,Acqua Vergine,5,6.95
+8e,Lunghezza,21,5.74
+8f,Torre Angela,66,7.53
 8g,Borghesiana,28,5.41
 8h,S. Vittorino,11,7.95
-9a,Tuscolano Nord,15,6.91
+9a,Tuscolano Nord,16,7.38
 9b,Tuscolano Sud,30,6.29
 9c,Tor Fiscale,0,0
 9d,Appio,34,12.39
-9e,Latino,9,3.98
+9e,Latino,10,4.43
