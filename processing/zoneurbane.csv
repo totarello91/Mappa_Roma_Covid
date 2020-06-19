@@ -1,156 +1,156 @@
 cod,zona,casi,tasso
-10a,Don Bosco,56,10.86
-10b,Appio-Claudio,26,8.83
+10a,Don Bosco,64,12.41
+10b,Appio-Claudio,28,9.51
 10c,Quarto Miglio,20,18.79
 10d,Pignatelli,3,4.64
 10e,Lucrezia Romana,3,5.67
-10f,Osteria del Curato,24,12.56
+10f,Osteria del Curato,28,14.65
 10g,Romanina,15,20.37
 10h,Gregna,4,5.64
 10i,Barcaccia,6,5.34
-10l,Morena,35,10.91
+10l,Morena,36,11.22
 10x,Ciampino,0,0
 11a,Ostiense,1,1.28
 11b,Valco S. Paolo,7,9.33
-11c,Garbatella,43,9.78
+11c,Garbatella,67,15.24
 11d,Navigatori,5,9.68
-11e,Tormarancia,26,8
+11e,Tormarancia,29,8.92
 11f,Tre Fontane,4,3.39
-11g,Grottaperfetta,13,8.39
+11g,Grottaperfetta,16,10.33
 11x,Appia Antica Nord,1,4
 11y,Appia Antica Sud,0,0
-12a,Eur,8,9.12
-12b,Villaggio Giuliano,13,13.24
-12c,Torrino,31,7.63
-12d,Laurentino,25,10.41
-12e,Cecchignola,16,11.63
-12f,Mezzocammino,8,5.71
-12g,Spinaceto,24,9.87
-12h,Vallerano Castel di Leva,27,9.17
+12a,Eur,9,10.26
+12b,Villaggio Giuliano,14,14.26
+12c,Torrino,35,8.61
+12d,Laurentino,28,11.66
+12e,Cecchignola,17,12.36
+12f,Mezzocammino,16,11.43
+12g,Spinaceto,29,11.92
+12h,Vallerano Castel di Leva,29,9.85
 12i,Decima,3,3.64
-12l,Porta Medaglia,1,3.08
+12l,Porta Medaglia,2,6.16
 12m,Castel Romano,0,0
 12n,Santa Palomba,0,0
 12x,Tor di Valle,0,0
 13a,Malafede,13,7.69
-13b,Acilia Nord,27,9.66
-13c,Acilia Sud,21,8.16
-13d,Palocco,15,5.55
+13b,Acilia Nord,28,10.01
+13c,Acilia Sud,22,8.55
+13d,Palocco,16,5.92
 13e,Ostia Antica,11,6.44
-13f,Ostia Nord,31,7.35
-13g,Ostia Sud,24,6.8
+13f,Ostia Nord,35,8.3
+13g,Ostia Sud,25,7.08
 13h,Castel Fusano,1,6.81
-13i,Infernetto,29,9.83
+13i,Infernetto,33,11.18
 13x,Castel Porziano,0,0
-15a,Marconi,17,4.9
+15a,Marconi,21,6.06
 15b,Portuense,26,8.95
-15c,Pian Due Torri,27,10.83
-15d,Trullo,22,7.46
-15e,Magliana,4,7.55
-15f,Corviale,6,3.71
+15c,Pian Due Torri,30,12.03
+15d,Trullo,23,7.8
+15e,Magliana,6,11.33
+15f,Corviale,9,5.57
 15g,Ponte Galeria,15,12.11
-16a,Colli Portuensi,57,16
-16b,Buon Pastore,34,11.1
+16a,Colli Portuensi,59,16.56
+16b,Buon Pastore,39,12.73
 16c,Pisana,15,34.27
-16d,Gianicolense,36,6.72
-16e,Massimina,12,13.31
-16f,Pantano di Grano,6,10.75
-16x,Villa Pamphili,1,384.62
+16d,Gianicolense,43,8.03
+16e,Massimina,14,15.52
+16f,Pantano di Grano,7,12.54
+16x,Villa Pamphili,5,1923.08
 17a,Prati,21,11.88
-17b,Della Vittoria,32,12.5
-17c,Eroi,13,6.66
-18a,Aurelio Sud,29,11.79
-18b,Val Cannuta,20,6.01
-18c,Fogaccia,30,10.12
-18d,Aurelio Nord,15,8.31
-18e,Casalotti di Boccea,19,10.85
-18f,Boccea,4,5.26
-19a,Medaglie d' Oro,37,9.41
-19b,Primavalle,49,8.75
-19c,Ottavia,22,14.28
-19d,S. Maria della Pieta,32,12.82
-19e,Trionfale,17,10.12
+17b,Della Vittoria,35,13.67
+17c,Eroi,16,8.2
+18a,Aurelio Sud,31,12.6
+18b,Val Cannuta,23,6.91
+18c,Fogaccia,36,12.14
+18d,Aurelio Nord,18,9.97
+18e,Casalotti di Boccea,21,11.99
+18f,Boccea,5,6.58
+19a,Medaglie d' Oro,39,9.92
+19b,Primavalle,58,10.36
+19c,Ottavia,24,15.58
+19d,S. Maria della Pieta,35,14.03
+19e,Trionfale,19,11.31
 19f,Pineto,2,10.7
-19g,Castelluccia,23,7.9
+19g,Castelluccia,25,8.58
 19h,S. Maria di Galeria,1,2.72
-1a,Centro Storico,47,19.17
-1b,Trastevere,7,5.05
-1c,Aventino,11,13.51
+1a,Centro Storico,53,21.61
+1b,Trastevere,9,6.49
+1c,Aventino,12,14.74
 1d,Testaccio,7,8.88
-1e,Esquilino,36,10.57
-1f,XX Settembre,12,13.32
+1e,Esquilino,45,13.22
+1f,XX Settembre,13,14.43
 1g,Celio,4,10.3
 1x,Zona Archeologica,1,13.83
-20a,Tor di Quinto,17,13.31
+20a,Tor di Quinto,18,14.1
 20b,Acquatraversa,8,8.18
-20c,Tomba di Nerone,29,9.01
-20d,Farnesina,31,16.09
-20e,Grottarossa Ovest,3,11.54
+20c,Tomba di Nerone,34,10.56
+20d,Farnesina,32,16.61
+20e,Grottarossa Ovest,4,15.38
 20f,Grottarossa Est,0,0
-20g,Giustiniana,21,19.14
-20h,La Storta,13,6.37
+20g,Giustiniana,23,20.96
+20h,La Storta,14,6.86
 20i,S. Cornelia,23,25.68
 20l,Prima Porta,1,2.72
-20m,Labaro,26,11.83
+20m,Labaro,30,13.64
 20n,Cesano,9,8.15
 20o,Martignano,0,0
 20x,Foro Italico,9,137.4
 2a,Villaggio Olimpico,1,3.56
-2b,Parioli,24,11.03
+2b,Parioli,26,11.95
 2c,Flaminio,23,17.65
-2d,Salario,34,13.49
-2e,Trieste,59,11.16
+2d,Salario,35,13.88
+2e,Trieste,65,12.3
 2x,Villa Borghese,2,32.36
-2y,Villa Ada,1,11.25
-3a,Nomentano,52,13.38
+2y,Villa Ada,2,22.5
+3a,Nomentano,56,14.4
 3b,S. Lorenzo,7,7.86
-3x,Universit?,0,0
+3x,Universit?,1,10.05
 3y,Verano,0,0
-4a,Monte Sacro,10,6.07
-4b,Val Melaina,79,21.75
-4c,Monte Sacro Alto,18,5.37
-4d,Fidene,7,5.88
-4e,Serpentara,20,6.31
+4a,Monte Sacro,13,7.89
+4b,Val Melaina,88,24.23
+4c,Monte Sacro Alto,19,5.67
+4d,Fidene,11,9.24
+4e,Serpentara,23,7.25
 4f,Casal Boccone,12,8.66
 4g,Conca d'Oro,15,7.91
 4h,Sacco Pastore,9,8.93
-4i,Tufello,11,7.67
+4i,Tufello,12,8.37
 4l,Aeroporto dell' Urbe,2,10.27
 4m,Settebagni,2,3.88
 4n,Bufalotta,12,15.98
 4o,Tor S. Giovanni,2,23.56
-5a,Casal Bertone,10,6.26
-5b,Casal Bruciato,22,10.61
+5a,Casal Bertone,13,8.14
+5b,Casal Bruciato,23,11.09
 5c,Tiburtino Nord,24,12.77
-5d,Tiburtino Sud,19,8.33
-5e,S. Basilio,14,5.66
+5d,Tiburtino Sud,21,9.21
+5e,S. Basilio,18,7.28
 5f,Tor Cervara,1,3.51
 5g,Pietralata,12,9.11
-5h,Casal de' Pazzi,20,7.59
+5h,Casal de' Pazzi,22,8.35
 5i,S. Alessandro,9,8.49
-5l,Settecamini,9,7.12
-6a,Torpignattara,43,9.04
+5l,Settecamini,10,7.91
+6a,Torpignattara,44,9.25
 6b,Casilino,13,12.24
-6c,Quadraro,18,8.67
-6d,Gordiani,47,11.39
-7a,Centocelle,66,12.23
-7b,Alessandrina,27,10.1
+6c,Quadraro,23,11.08
+6d,Gordiani,52,12.6
+7a,Centocelle,69,12.78
+7b,Alessandrina,28,10.47
 7c,Tor Sapienza,7,5.68
-7d,La Rustica,11,10.89
-7e,Tor Tre Teste,12,11.03
-7f,Casetta Mistica,0,0
+7d,La Rustica,21,20.79
+7e,Tor Tre Teste,15,13.79
+7f,Casetta Mistica,1,11.2
 7g,Centro Direzionale Centocelle,0,0
 7h,Omo,25,126.58
-8a,Torrespaccata,18,13.37
+8a,Torrespaccata,19,14.11
 8b,Torre Maura,29,14.85
-8c,Giardinetti-Tor Vergata,28,14.01
+8c,Giardinetti-Tor Vergata,29,14.51
 8d,Acqua Vergine,7,9.72
 8e,Lunghezza,32,8.75
-8f,Torre Angela,92,10.5
-8g,Borghesiana,44,8.51
+8f,Torre Angela,96,10.95
+8g,Borghesiana,46,8.89
 8h,S. Vittorino,12,8.67
-9a,Tuscolano Nord,18,8.3
-9b,Tuscolano Sud,39,8.18
+9a,Tuscolano Nord,20,9.22
+9b,Tuscolano Sud,41,8.6
 9c,Tor Fiscale,0,0
-9d,Appio,43,15.67
-9e,Latino,13,5.76
+9d,Appio,46,16.76
+9e,Latino,16,7.08
