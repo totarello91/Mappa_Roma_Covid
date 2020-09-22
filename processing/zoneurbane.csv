@@ -1,0 +1,159 @@
+<<<<<<< HEAD
+=======
+cod,zona,casi,tasso
+10a,Don Bosco,56,10.86
+10b,Appio-Claudio,26,8.83
+10c,Quarto Miglio,20,18.79
+10d,Pignatelli,3,4.64
+10e,Lucrezia Romana,3,5.67
+10f,Osteria del Curato,24,12.56
+10g,Romanina,15,20.37
+10h,Gregna,4,5.64
+10i,Barcaccia,6,5.34
+10l,Morena,35,10.91
+10x,Ciampino,0,0
+11a,Ostiense,1,1.28
+11b,Valco S. Paolo,7,9.33
+11c,Garbatella,43,9.78
+11d,Navigatori,5,9.68
+11e,Tormarancia,26,8
+11f,Tre Fontane,4,3.39
+11g,Grottaperfetta,13,8.39
+11x,Appia Antica Nord,1,4
+11y,Appia Antica Sud,0,0
+12a,Eur,8,9.12
+12b,Villaggio Giuliano,13,13.24
+12c,Torrino,31,7.63
+12d,Laurentino,25,10.41
+12e,Cecchignola,16,11.63
+12f,Mezzocammino,8,5.71
+12g,Spinaceto,24,9.87
+12h,Vallerano Castel di Leva,27,9.17
+12i,Decima,3,3.64
+12l,Porta Medaglia,1,3.08
+12m,Castel Romano,0,0
+12n,Santa Palomba,0,0
+12x,Tor di Valle,0,0
+13a,Malafede,13,7.69
+13b,Acilia Nord,27,9.66
+13c,Acilia Sud,21,8.16
+13d,Palocco,15,5.55
+13e,Ostia Antica,11,6.44
+13f,Ostia Nord,31,7.35
+13g,Ostia Sud,24,6.8
+13h,Castel Fusano,1,6.81
+13i,Infernetto,29,9.83
+13x,Castel Porziano,0,0
+15a,Marconi,17,4.9
+15b,Portuense,26,8.95
+15c,Pian Due Torri,27,10.83
+15d,Trullo,22,7.46
+15e,Magliana,4,7.55
+15f,Corviale,6,3.71
+15g,Ponte Galeria,15,12.11
+16a,Colli Portuensi,57,16
+16b,Buon Pastore,34,11.1
+16c,Pisana,15,34.27
+16d,Gianicolense,36,6.72
+16e,Massimina,12,13.31
+16f,Pantano di Grano,6,10.75
+16x,Villa Pamphili,1,384.62
+17a,Prati,21,11.88
+17b,Della Vittoria,32,12.5
+17c,Eroi,13,6.66
+18a,Aurelio Sud,29,11.79
+18b,Val Cannuta,20,6.01
+18c,Fogaccia,30,10.12
+18d,Aurelio Nord,15,8.31
+18e,Casalotti di Boccea,19,10.85
+18f,Boccea,4,5.26
+19a,Medaglie d' Oro,37,9.41
+19b,Primavalle,49,8.75
+19c,Ottavia,22,14.28
+19d,S. Maria della Pieta,32,12.82
+19e,Trionfale,17,10.12
+19f,Pineto,2,10.7
+19g,Castelluccia,23,7.9
+19h,S. Maria di Galeria,1,2.72
+1a,Centro Storico,47,19.17
+1b,Trastevere,7,5.05
+1c,Aventino,11,13.51
+1d,Testaccio,7,8.88
+1e,Esquilino,36,10.57
+1f,XX Settembre,12,13.32
+1g,Celio,4,10.3
+1x,Zona Archeologica,1,13.83
+20a,Tor di Quinto,17,13.31
+20b,Acquatraversa,8,8.18
+20c,Tomba di Nerone,29,9.01
+20d,Farnesina,31,16.09
+20e,Grottarossa Ovest,3,11.54
+20f,Grottarossa Est,0,0
+20g,Giustiniana,21,19.14
+20h,La Storta,13,6.37
+20i,S. Cornelia,23,25.68
+20l,Prima Porta,1,2.72
+20m,Labaro,26,11.83
+20n,Cesano,9,8.15
+20o,Martignano,0,0
+20x,Foro Italico,9,137.4
+2a,Villaggio Olimpico,1,3.56
+2b,Parioli,24,11.03
+2c,Flaminio,23,17.65
+2d,Salario,34,13.49
+2e,Trieste,59,11.16
+2x,Villa Borghese,2,32.36
+2y,Villa Ada,1,11.25
+3a,Nomentano,52,13.38
+3b,S. Lorenzo,7,7.86
+3x,Universit?,0,0
+3y,Verano,0,0
+4a,Monte Sacro,10,6.07
+4b,Val Melaina,79,21.75
+4c,Monte Sacro Alto,18,5.37
+4d,Fidene,7,5.88
+4e,Serpentara,20,6.31
+4f,Casal Boccone,12,8.66
+4g,Conca d'Oro,15,7.91
+4h,Sacco Pastore,9,8.93
+4i,Tufello,11,7.67
+4l,Aeroporto dell' Urbe,2,10.27
+4m,Settebagni,2,3.88
+4n,Bufalotta,12,15.98
+4o,Tor S. Giovanni,2,23.56
+5a,Casal Bertone,10,6.26
+5b,Casal Bruciato,22,10.61
+5c,Tiburtino Nord,24,12.77
+5d,Tiburtino Sud,19,8.33
+5e,S. Basilio,14,5.66
+5f,Tor Cervara,1,3.51
+5g,Pietralata,12,9.11
+5h,Casal de' Pazzi,20,7.59
+5i,S. Alessandro,9,8.49
+5l,Settecamini,9,7.12
+6a,Torpignattara,43,9.04
+6b,Casilino,13,12.24
+6c,Quadraro,18,8.67
+6d,Gordiani,47,11.39
+7a,Centocelle,66,12.23
+7b,Alessandrina,27,10.1
+7c,Tor Sapienza,7,5.68
+7d,La Rustica,11,10.89
+7e,Tor Tre Teste,12,11.03
+7f,Casetta Mistica,0,0
+7g,Centro Direzionale Centocelle,0,0
+7h,Omo,25,126.58
+8a,Torrespaccata,18,13.37
+8b,Torre Maura,29,14.85
+8c,Giardinetti-Tor Vergata,28,14.01
+8d,Acqua Vergine,7,9.72
+8e,Lunghezza,32,8.75
+8f,Torre Angela,92,10.5
+8g,Borghesiana,44,8.51
+8h,S. Vittorino,12,8.67
+9a,Tuscolano Nord,18,8.3
+9b,Tuscolano Sud,39,8.18
+9c,Tor Fiscale,0,0
+9d,Appio,43,15.67
+9e,Latino,13,5.76
+>>>>>>> parent of 7d88541... Dati aggiornati il 19 Giugno 2020
