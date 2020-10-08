@@ -1,156 +1,156 @@
 cod,zona,casi,tasso
-10a,Don Bosco,168,32.58
-10b,Appio-Claudio,74,25.13
-10c,Quarto Miglio,34,31.94
-10d,Pignatelli,25,38.65
+10a,Don Bosco,190,36.85
+10b,Appio-Claudio,77,26.15
+10c,Quarto Miglio,35,32.88
+10d,Pignatelli,27,41.74
 10e,Lucrezia Romana,8,15.12
-10f,Osteria del Curato,51,26.69
-10g,Romanina,35,47.54
+10f,Osteria del Curato,55,28.79
+10g,Romanina,41,55.69
 10h,Gregna,28,39.45
-10i,Barcaccia,15,13.34
-10l,Morena,77,24
+10i,Barcaccia,18,16.01
+10l,Morena,80,24.94
 10x,Ciampino,0,0
 11a,Ostiense,12,15.42
-11b,Valco S. Paolo,11,14.66
-11c,Garbatella,140,31.84
+11b,Valco S. Paolo,13,17.32
+11c,Garbatella,153,34.79
 11d,Navigatori,11,21.3
-11e,Tormarancia,94,28.91
-11f,Tre Fontane,26,22.02
-11g,Grottaperfetta,26,16.78
-11x,Appia Antica Nord,11,44
+11e,Tormarancia,95,29.22
+11f,Tre Fontane,29,24.56
+11g,Grottaperfetta,29,18.72
+11x,Appia Antica Nord,12,48
 11y,Appia Antica Sud,0,0
-12a,Eur,36,41.05
+12a,Eur,38,43.33
 12b,Villaggio Giuliano,26,26.47
-12c,Torrino,101,24.85
-12d,Laurentino,56,23.32
+12c,Torrino,102,25.09
+12d,Laurentino,61,25.4
 12e,Cecchignola,36,26.18
-12f,Mezzocammino,39,27.85
+12f,Mezzocammino,41,29.28
 12g,Spinaceto,49,20.14
-12h,Vallerano Castel di Leva,76,25.81
+12h,Vallerano Castel di Leva,84,28.53
 12i,Decima,15,18.18
 12l,Porta Medaglia,6,18.48
 12m,Castel Romano,1,35.71
 12n,Santa Palomba,2,13.95
 12x,Tor di Valle,0,0
-13a,Malafede,24,14.2
-13b,Acilia Nord,64,22.89
-13c,Acilia Sud,52,20.21
-13d,Palocco,78,28.86
-13e,Ostia Antica,28,16.4
-13f,Ostia Nord,87,20.64
-13g,Ostia Sud,87,24.64
-13h,Castel Fusano,4,27.23
-13i,Infernetto,80,27.11
+13a,Malafede,25,14.79
+13b,Acilia Nord,65,23.25
+13c,Acilia Sud,60,23.32
+13d,Palocco,84,31.08
+13e,Ostia Antica,29,16.99
+13f,Ostia Nord,92,21.82
+13g,Ostia Sud,89,25.21
+13h,Castel Fusano,5,34.04
+13i,Infernetto,92,31.18
 13x,Castel Porziano,0,0
-15a,Marconi,89,25.68
-15b,Portuense,61,20.99
-15c,Pian Due Torri,68,27.27
-15d,Trullo,71,24.07
-15e,Magliana,12,22.65
-15f,Corviale,51,31.54
-15g,Ponte Galeria,28,22.6
-16a,Colli Portuensi,113,31.71
-16b,Buon Pastore,80,26.11
-16c,Pisana,22,50.26
-16d,Gianicolense,122,22.77
-16e,Massimina,23,25.5
-16f,Pantano di Grano,24,42.99
-16x,Villa Pamphili,9,3461.54
-17a,Prati,50,28.29
-17b,Della Vittoria,71,27.73
-17c,Eroi,44,22.55
-18a,Aurelio Sud,74,30.07
-18b,Val Cannuta,96,28.84
-18c,Fogaccia,134,45.19
-18d,Aurelio Nord,43,23.83
-18e,Casalotti di Boccea,36,20.55
-18f,Boccea,15,19.74
-19a,Medaglie d' Oro,125,31.8
-19b,Primavalle,134,23.93
-19c,Ottavia,53,34.41
-19d,S. Maria della Pieta,93,37.27
-19e,Trionfale,43,25.6
+15a,Marconi,112,32.31
+15b,Portuense,74,25.46
+15c,Pian Due Torri,83,33.28
+15d,Trullo,82,27.8
+15e,Magliana,13,24.54
+15f,Corviale,58,35.87
+15g,Ponte Galeria,32,25.83
+16a,Colli Portuensi,127,35.64
+16b,Buon Pastore,86,28.07
+16c,Pisana,28,63.97
+16d,Gianicolense,148,27.63
+16e,Massimina,24,26.61
+16f,Pantano di Grano,29,51.94
+16x,Villa Pamphili,18,6923.08
+17a,Prati,54,30.55
+17b,Della Vittoria,73,28.51
+17c,Eroi,50,25.62
+18a,Aurelio Sud,79,32.1
+18b,Val Cannuta,111,33.35
+18c,Fogaccia,146,49.24
+18d,Aurelio Nord,45,24.93
+18e,Casalotti di Boccea,43,24.55
+18f,Boccea,17,22.37
+19a,Medaglie d' Oro,143,36.38
+19b,Primavalle,162,28.93
+19c,Ottavia,56,36.35
+19d,S. Maria della Pieta,111,44.48
+19e,Trionfale,45,26.79
 19f,Pineto,6,32.1
-19g,Castelluccia,60,20.6
-19h,S. Maria di Galeria,1,2.72
-1a,Centro Storico,126,51.38
-1b,Trastevere,35,25.24
-1c,Aventino,21,25.8
-1d,Testaccio,18,22.85
-1e,Esquilino,131,38.48
-1f,XX Settembre,52,57.74
-1g,Celio,7,18.03
+19g,Castelluccia,69,23.69
+19h,S. Maria di Galeria,4,10.88
+1a,Centro Storico,137,55.87
+1b,Trastevere,41,29.56
+1c,Aventino,22,27.02
+1d,Testaccio,21,26.65
+1e,Esquilino,147,43.18
+1f,XX Settembre,58,64.4
+1g,Celio,9,23.18
 1x,Zona Archeologica,5,69.16
-20a,Tor di Quinto,64,50.13
-20b,Acquatraversa,46,47.02
-20c,Tomba di Nerone,101,31.38
-20d,Farnesina,92,47.75
-20e,Grottarossa Ovest,19,73.08
-20f,Grottarossa Est,2,15.84
-20g,Giustiniana,43,39.19
-20h,La Storta,51,24.98
+20a,Tor di Quinto,66,51.69
+20b,Acquatraversa,58,59.28
+20c,Tomba di Nerone,119,36.97
+20d,Farnesina,106,55.02
+20e,Grottarossa Ovest,22,84.62
+20f,Grottarossa Est,3,23.75
+20g,Giustiniana,44,40.1
+20h,La Storta,58,28.41
 20i,S. Cornelia,37,41.31
 20l,Prima Porta,5,13.59
-20m,Labaro,61,27.74
-20n,Cesano,27,24.45
+20m,Labaro,64,29.11
+20n,Cesano,28,25.35
 20o,Martignano,0,0
-20x,Foro Italico,9,137.4
-2a,Villaggio Olimpico,3,10.68
-2b,Parioli,102,46.87
-2c,Flaminio,52,39.9
-2d,Salario,90,35.7
-2e,Trieste,144,27.25
+20x,Foro Italico,10,152.67
+2a,Villaggio Olimpico,4,14.24
+2b,Parioli,110,50.55
+2c,Flaminio,56,42.97
+2d,Salario,103,40.85
+2e,Trieste,155,29.33
 2x,Villa Borghese,8,129.45
 2y,Villa Ada,2,22.5
-3a,Nomentano,127,32.67
-3b,S. Lorenzo,24,26.96
-3x,Universit?,22,221.11
-3y,Verano,1,44.44
-4a,Monte Sacro,27,16.39
-4b,Val Melaina,129,35.52
-4c,Monte Sacro Alto,73,21.79
-4d,Fidene,28,23.51
-4e,Serpentara,58,18.29
-4f,Casal Boccone,38,27.43
-4g,Conca d'Oro,39,20.57
-4h,Sacco Pastore,31,30.74
-4i,Tufello,25,17.43
+3a,Nomentano,132,33.95
+3b,S. Lorenzo,30,33.7
+3x,Universit?,28,281.41
+3y,Verano,2,88.89
+4a,Monte Sacro,30,18.21
+4b,Val Melaina,150,41.3
+4c,Monte Sacro Alto,82,24.48
+4d,Fidene,35,29.39
+4e,Serpentara,73,23.02
+4f,Casal Boccone,39,28.15
+4g,Conca d'Oro,55,29.01
+4h,Sacco Pastore,42,41.65
+4i,Tufello,31,21.61
 4l,Aeroporto dell' Urbe,2,10.27
-4m,Settebagni,9,17.46
-4n,Bufalotta,26,34.63
+4m,Settebagni,15,29.1
+4n,Bufalotta,29,38.62
 4o,Tor S. Giovanni,2,23.56
-5a,Casal Bertone,27,16.91
-5b,Casal Bruciato,54,26.04
-5c,Tiburtino Nord,49,26.08
-5d,Tiburtino Sud,43,18.85
-5e,S. Basilio,46,18.61
+5a,Casal Bertone,33,20.66
+5b,Casal Bruciato,58,27.97
+5c,Tiburtino Nord,53,28.2
+5d,Tiburtino Sud,47,20.61
+5e,S. Basilio,50,20.23
 5f,Tor Cervara,3,10.52
-5g,Pietralata,29,22.02
-5h,Casal de' Pazzi,55,20.87
-5i,S. Alessandro,22,20.75
-5l,Settecamini,26,20.56
-6a,Torpignattara,166,34.92
+5g,Pietralata,33,25.06
+5h,Casal de' Pazzi,65,24.67
+5i,S. Alessandro,24,22.64
+5l,Settecamini,27,21.36
+6a,Torpignattara,181,38.07
 6b,Casilino,30,28.25
-6c,Quadraro,86,41.41
-6d,Gordiani,140,33.93
-7a,Centocelle,169,31.3
-7b,Alessandrina,68,25.44
-7c,Tor Sapienza,21,17.03
-7d,La Rustica,45,44.54
-7e,Tor Tre Teste,32,29.41
+6c,Quadraro,93,44.78
+6d,Gordiani,145,35.14
+7a,Centocelle,185,34.27
+7b,Alessandrina,71,26.56
+7c,Tor Sapienza,23,18.65
+7d,La Rustica,48,47.51
+7e,Tor Tre Teste,39,35.85
 7f,Casetta Mistica,6,67.19
-7g,Centro Direzionale Centocelle,5,42.3
-7h,Omo,42,212.66
-8a,Torrespaccata,38,28.22
-8b,Torre Maura,56,28.67
-8c,Giardinetti-Tor Vergata,95,47.55
-8d,Acqua Vergine,35,48.62
-8e,Lunghezza,99,27.06
-8f,Torre Angela,216,24.65
-8g,Borghesiana,134,25.91
-8h,S. Vittorino,22,15.9
-9a,Tuscolano Nord,54,24.89
-9b,Tuscolano Sud,147,30.82
+7g,Centro Direzionale Centocelle,7,59.22
+7h,Omo,46,232.91
+8a,Torrespaccata,44,32.67
+8b,Torre Maura,59,30.21
+8c,Giardinetti-Tor Vergata,98,49.05
+8d,Acqua Vergine,39,54.18
+8e,Lunghezza,106,28.97
+8f,Torre Angela,245,27.95
+8g,Borghesiana,139,26.88
+8h,S. Vittorino,25,18.06
+9a,Tuscolano Nord,55,25.35
+9b,Tuscolano Sud,161,33.76
 9c,Tor Fiscale,5,22.38
-9d,Appio,72,26.24
-9e,Latino,54,23.91
+9d,Appio,78,28.43
+9e,Latino,56,24.79
